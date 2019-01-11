@@ -4150,12 +4150,7 @@ event-stream@~3.0.20:
     stream-combiner "~0.0.3"
     through "~2.3.1"
 
-eventemitter3@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-2.0.3.tgz#b5e1079b59fb5e1ba2771c0a993be060a58c99ba"
-  integrity sha1-teEHm1n7XhuidxwKmTvgYKWMmbo=
-
-eventemitter3@^3.0.0:
+eventemitter3@^3.0.0, eventemitter3@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-3.1.0.tgz#090b4d6cdbd645ed10bf750d4b5407942d7ba163"
   integrity sha512-ivIvhpq/Y0uSjcHDcOIccjmYjGLcP09MFGE7ysAwkAvkXfpZlC985pH2/ui64DKazbTW/4kN3yqozUxlXzI6cA==
@@ -10245,13 +10240,13 @@ react-lifecycles-compat@^3.0.0:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-redux-toastr@^7.1.6:
-  version "7.4.1"
-  resolved "https://registry.yarnpkg.com/react-redux-toastr/-/react-redux-toastr-7.4.1.tgz#6351dc075c5b6f45df145d711bf40d6ed4065634"
-  integrity sha512-U7Z7A217yGgkjZE87MzHbLIlYV0OvZ3HiBRfUWoZF1Y4kvY6JAKn8EkAfPy40ZzoLiH2GpCq9Ac1U7v8on7PvQ==
+react-redux-toastr@^7.4.6:
+  version "7.4.6"
+  resolved "https://registry.yarnpkg.com/react-redux-toastr/-/react-redux-toastr-7.4.6.tgz#52d39db21ccc15b45ee28420dd4a316acfa3dc1c"
+  integrity sha512-KHRmqWXiRqgxVMHFd/wyKw7wjZJbYVP48w9qkloq4jmzbrEbIt1x773QZX0xWZxfqrq8evAn4+gEdiRc86S8xA==
   dependencies:
     classnames "^2.2.3"
-    eventemitter3 "^2.0.3"
+    eventemitter3 "^3.1.0"
 
 react-redux@^5.0.6:
   version "5.1.1"
